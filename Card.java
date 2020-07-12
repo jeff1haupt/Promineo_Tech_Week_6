@@ -5,8 +5,10 @@ public class Card {
 	private int value;
 	private String name;
 	
-	public Card(String cardName, int cardValue) {
+	public Card(String name, int value) {
 		// TODO Auto-generated constructor stub
+		this.name = name;
+		this.value = value;
 	}
 
 	public String describe() {
