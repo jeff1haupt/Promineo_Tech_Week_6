@@ -24,6 +24,7 @@ public class Deck {
 				cards.add(card);
 			} // end inner For Loop
 		}  // end outer For Loop
+
 	} // end public Deck()
 	
 	

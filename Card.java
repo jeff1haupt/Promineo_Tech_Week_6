@@ -12,7 +12,7 @@ public class Card {
 	}
 
 	public String describe() {
-		return Card.class.getSimpleName() + "[name=" + name + ", value=" + value + "]";
+		return name + ", value=" + value;
 	}
 	
 	public int getValue() {
